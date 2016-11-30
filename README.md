@@ -1,4 +1,4 @@
-# holman does dotfiles
+# holman does dotfiles [nelson's remix]
 
 Your dotfiles are how you personalize your system. These are mine.
 
