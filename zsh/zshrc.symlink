@@ -28,6 +28,11 @@ do
   source $file
 done
 
+# set up online help
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/help
+
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
 compinit
