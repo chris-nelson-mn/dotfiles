@@ -1,2 +1,5 @@
+atom-beautify@0.29.13
+language-haml@0.24.1
+vim-mode-plus@0.66.1
 
 

@@ -1,42 +1,11 @@
 "*":
   core:
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
-    followSymlinks: false
-    hideGitIgnoredFiles: true
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
+    excludeVcsIgnoredPaths: false
+    projectHome: "/Users/cnelson/repos"
+    telemetryConsent: "no"
   editor:
-    fontFamily: "Menlo"
-    fontSize: 15
-    invisibles: {}
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "linter-eslint":
-    useGlobalEslint: true
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+    tabType: "soft"
+  "exception-reporting":
+    userId: "d6bd1dee-92b3-7b41-4709-415cb69fd503"
   welcome:
     showOnStartup: false
