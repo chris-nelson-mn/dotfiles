@@ -11,6 +11,12 @@ alias gl='git pull --prune'
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gp='git push origin HEAD'
 
+# Grepping
+alias gg='git grep --heading'
+alias gg3='git grep --heading -C2'
+alias gg5='git grep --heading -C5'
+alias ggf='git grep --name-only'
+
 # Remove `+` and `-` from start of diff lines; just rely upon color.
 alias gd='git diff --color | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -r'
 

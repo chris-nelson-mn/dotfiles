@@ -27,6 +27,10 @@ setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share 
 setopt HIST_IGNORE_ALL_DUPS  # don't record dupes in history
 setopt HIST_REDUCE_BLANKS
 
+# prevent issues running certain rake tasks
+# see: https://robots.thoughtbot.com/how-to-use-arguments-in-a-rake-task
+unsetopt nomatch
+
 # don't expand aliases _before_ completion has finished
 #   like: git comm-[tab]
 setopt complete_aliases
