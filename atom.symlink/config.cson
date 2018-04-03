@@ -1,12 +1,17 @@
 "*":
   core:
+    packagesWithKeymapsDisabled: [
+      "git-blame"
+    ]
     projectHome: "/Users/cnelson/repos"
     telemetryConsent: "no"
   editor:
-    fontSize: 17
     tabType: "soft"
   "exception-reporting":
     userId: "d6bd1dee-92b3-7b41-4709-415cb69fd503"
+  "git-blame":
+    columnWidth: 393
+    showOnlyLastNames: true
   linter: {}
   "linter-rubocop":
     command: "/Users/cnelson/.rbenv/shims/rubocop"
