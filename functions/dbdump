@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dbdump () {
+  pg_dump -U $USER -F t zipnosis_rails_3_api2_$1 > ./tmp/postgresql_backup.tar
+}

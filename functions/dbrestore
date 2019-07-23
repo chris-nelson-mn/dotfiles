@@ -1,0 +1,3 @@
+dbrestore () {
+  pg_restore -d zipnosis_rails_3_api2_$1 $2 -c -U $USER
+}

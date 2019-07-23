@@ -6,6 +6,8 @@
     projectHome: "/Users/cnelson/repos"
     telemetryConsent: "no"
   editor:
+    fontSize: 17
+    showInvisibles: true
     tabType: "soft"
   "exception-reporting":
     userId: "d6bd1dee-92b3-7b41-4709-415cb69fd503"
@@ -16,5 +18,8 @@
   "linter-rubocop":
     command: "/Users/cnelson/.rbenv/shims/rubocop"
     disableWhenNoConfigFile: true
+  "linter-ui-default":
+    panelHeight: 138
+    showPanel: true
   welcome:
     showOnStartup: false

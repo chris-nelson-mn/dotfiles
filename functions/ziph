@@ -1,0 +1,3 @@
+ziph () {
+  heroku run "bundle exec rails console" -a zipnosis-$1-stage
+}

@@ -1,0 +1,3 @@
+zipc () {
+  datica -E zipnosis-$1 console app01 "bundle exec rails console"
+}
