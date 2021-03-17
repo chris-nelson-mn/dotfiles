@@ -21,5 +21,6 @@
   "linter-ui-default":
     panelHeight: 138
     showPanel: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
